@@ -21,47 +21,22 @@
     </div>
 
     <div class="row" id="photoFeed">
+
     </div>
 
-    <template id="profileTemplate">
-      <div class="col-md-4">.col-md-4</div>
-      <article>
-        <div class='image'>
-          <img src="{{avatar_url}}"/>
+    <template id="photoTemplate">
+      <div class="col-md-4">
+        <article>
+          <div class='image'>
+          <img src="{{media.m}}"/>
         </div>
-        <div class='profile-details'>
-          <h1>{{name}}</h1>(<a href='{{html_url}}'>{{login}}</a>)
-          <h2>{{location}}</h2>
-          <h2>{{email}}</h2>
-          <p>
-          <div id='followers'>{{followers}} followers</div>
-          <div id='repos'>{{public_repos}} public repos</div>
-          </p>
-        </div>
-      </article>
+        </article>
+      </div>
     </template>
 
-    <!-- <template id="profileTemplate">
-      <article>
-        <div class='image'>
-          <img src="{{avatar_url}}"/>
-        </div>
-        <div class='profile-details'>
-          <h1>{{name}}</h1>(<a href='{{html_url}}'>{{login}}</a>)
-          <h2>{{location}}</h2>
-          <h2>{{email}}</h2>
-          <p>
-          <div id='followers'>{{followers}} followers</div>
-          <div id='repos'>{{public_repos}} public repos</div>
-          </p>
-        </div>
-      </article>
-    </template> -->
-
-
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="handlebars.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/interface.js" type="text/javascript" charset="utf-8"></script>
   </body>
 
