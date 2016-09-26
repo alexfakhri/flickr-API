@@ -5,7 +5,7 @@ A simple 1 page app that uses the flickr API to pull in the latest photos from t
 
 Type in any search term into the form and the app will render 20 of the latest images from flickr using jQuery and Handlebars.
 
-![picture alt](github-image.png "Title is optional")
+![picture alt](github-image.png)
 
 Technologies Used:
 ------
