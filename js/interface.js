@@ -33,7 +33,10 @@ $(document).ready(function(){
                       tags: searchTerm,
                       format: 'json'
                       };
-    
+    var template = Handlebars.compile(html)
+    $.getJSON(flickrAPI, apiOptions, function(photos) {
+      console.log(photos);
+    });
   });
 
 });
