@@ -10,13 +10,13 @@
   <body class="container">
 
     <div class="jumbotron">
-      <h1>Flickr Photo Feed</h1>
-      <p>...</p>
+      <h1>flickr Photo Feed</h1>
+      <p>Search flickr's public photo stream</p>
       <form class="form-inline">
         <div class="form-group">
           <input id="searchTerm" type="text" class="form-control input-lg" placeholder="Enter your search here...">
         </div>
-        <button id="flickrSearch" type="submit" class="btn btn-primary btn-lg">Search Flickr</button>
+        <button id="flickrSearch" type="submit" class="btn btn-primary btn-lg">Search flickr</button>
       </form>
     </div>
 
@@ -27,9 +27,9 @@
     <template id="photoTemplate">
       <div class="col-md-4">
         <article>
-          <div class='image'>
-          <img src="{{media.m}}" class="img-responsive">
-        </div>
+          <div class="thumbnail">
+            <img src="{{media.m}}" class="img-responsive">
+          </div>
         </article>
       </div>
     </template>
