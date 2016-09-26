@@ -16,7 +16,8 @@ Technologies Used:
 - Bootstrap
 - HTML
 - CSS
-How to use
+
+How to use:
 ----------
 
 Clone the repository:
